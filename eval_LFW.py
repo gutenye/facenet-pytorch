@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import torch
 import torch.backends.cudnn as cudnn
 
@@ -10,7 +12,7 @@ if __name__ == "__main__":
     #   是否使用Cuda
     #   没有GPU可以设置成False
     #--------------------------------------#
-    cuda            = True
+    cuda            = False
     #--------------------------------------#
     #   主干特征提取网络的选择
     #   mobilenet

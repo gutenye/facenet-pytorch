@@ -1,3 +1,5 @@
+.DS_Store
+
 # ignore map, miou, datasets
 map_out/
 miou_out/
