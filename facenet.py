@@ -101,11 +101,11 @@ class Facenet(object):
             #---------------------------------------------------#
             l1 = np.linalg.norm(output1 - output2, axis=1)
         
-        plt.subplot(1, 2, 1)
-        plt.imshow(np.array(image_1))
+        # plt.subplot(1, 2, 1)
+        # plt.imshow(np.array(image_1))
 
-        plt.subplot(1, 2, 2)
-        plt.imshow(np.array(image_2))
-        plt.text(-12, -12, 'Distance:%.3f' % l1, ha='center', va= 'bottom',fontsize=11)
-        plt.show()
+        # plt.subplot(1, 2, 2)
+        # plt.imshow(np.array(image_2))
+        # plt.text(-12, -12, 'Distance:%.3f' % l1, ha='center', va= 'bottom',fontsize=11)
+        # plt.show()
         return l1
